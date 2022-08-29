@@ -1,0 +1,61 @@
+
+body {
+  margin: 0;
+   background-color: #3a5a40; 
+
+  color: #e9edc9;
+  text-align: center;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+  border: 6px solid #a3b18a;
+  margin-bottom: 15px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  margin-top: 5px;
+}
+
+.year-old, .year-date {
+  background-color: #588157;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.gift-picture, .gift-picture2 {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  border: 5px solid white;
+  border-radius: 5px;
+  /* background-image: url('https://cdn.pixabay.com/photo/2016/03/31/18/18/a-1294271__340.png'); */
+  background-image: url('https://static.vecteezy.com/system/resources/previews/001/594/552/original/red-ribbon-on-green-background-free-vector.jpg');
+  background-size: cover;
+}
+
+.gift-picture:hover {
+  background-image: url('https://i.pinimg.com/originals/b0/1d/df/b01ddf257d18c8a9b41e0502161d580c.gif');
+}
+
+.gift-picture2:hover {
+  background-image: url('https://www.funimada.com/assets/images/cards/big/bday-314.gif');
+}
+
+.link {
+  font-style: italic;
+}
+
+a {
+  color: #ffb703;
+}
+
+
+
